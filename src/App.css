@@ -1,0 +1,56 @@
+.container-fluid {
+  width: 100%;
+  max-width: 100%;
+  padding: 0;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  background-color: #fff;
+  padding: 10px 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+section {
+  width: 100%;
+  padding: 20px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.row.g-3 {
+  gap: 20px;
+}
+
+.footer {
+  width: 100%;
+  background-color: #343a40;
+  color: #fff;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+  header,
+  .seccion-busqueda h2,
+  .seleccionados-para-ti h3,
+  .restaurantes-populares h3,
+  .unete-a-caserita h3 {
+    font-size: 1.5rem;
+  }
+
+  .footer {
+    text-align: center;
+  }
+}

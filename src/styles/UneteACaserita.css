@@ -1,0 +1,27 @@
+.unete-a-caserita {
+  background-color: #28a745;
+  color: #fff;
+  padding: 60px 20px;
+  text-align: center;
+  width: 100%;
+  max-width: 1200px;
+  margin: 40px auto;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+
+.unete-a-caserita h3 {
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
+
+.unete-a-caserita p {
+  margin-bottom: 20px;
+  font-size: 1.2rem;
+}
+
+.unete-a-caserita .btn {
+  margin: 5px;
+  padding: 10px 20px;
+  font-size: 1rem;
+}

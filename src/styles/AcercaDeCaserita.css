@@ -1,0 +1,17 @@
+.acerca-de-caserita {
+  padding: 60px 20px;
+  text-align: center;
+  width: 100%;
+  max-width: 1200px;
+  margin: 40px auto 80px auto;
+  box-sizing: border-box;
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+.acerca-de-caserita p {
+  max-width: 700px;
+  margin: 0 auto;
+  font-size: 1.1em;
+  line-height: 1.6;
+}
